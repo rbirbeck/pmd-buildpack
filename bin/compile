@@ -10,5 +10,7 @@ echo "Setting alias"
 alias pmd="$HOME/pmd-bin-6.19.0/bin/run.sh pmd"
 echo "Trying to run pmd"
 pmd
+echo "Try running pmd directly?"
+./pmd-bin-6.19.0/bin/run.sh pmd
 
 exit 0
