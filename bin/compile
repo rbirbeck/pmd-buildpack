@@ -2,10 +2,13 @@
 # bin/compile <build-dir> <cache-dir> <env-dir>
 
 cd $HOME
+pwd
 wget https://github.com/pmd/pmd/releases/download/pmd_releases%2F6.19.0/pmd-bin-6.19.0.zip
 unzip pmd-bin-6.19.0.zip
+ls
+echo "Setting alias"
 alias pmd="$HOME/pmd-bin-6.19.0/bin/run.sh pmd"
-
+echo "Trying to run pmd"
 pmd
 
 exit 0
